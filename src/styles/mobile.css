@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'coffe';
+    src: url('../fonts/CoffeCake.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: solid red 1px; */
+}
+
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    font-family: 'Comic sans MS';
+    background: #c7d9fb;
+}
+
+h1 {
+    font-family: 'coffe';
+    font-size: 4rem;
+    color: #2e2e2e;
+    text-align: center;
+    margin: 10px;
+}
+
+header p {
+    font-family: 'Comic sans MS';
+    font-size: 1.1rem;
+    color: #2e2e2e;
+    text-align: center;
+    margin: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'coffe';
+    font-size: 1.8rem;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.svgFleche {
+    width: 1em;
+    transform: rotate(-90deg);
+}
+
+.blue {
+    color: #4F8FEF;
+}
+
+button {
+    background: url(../svg/backgroundButton.svg);
+    fill: #4F8FEF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    padding: 2rem;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1em;
+    color: white;
+    border: none;
+}
+
+.button-ville {
+    font-size: 20px;
+}
+
+.active {
+    background: url(../svg/backgroundButtonHover.svg);
+    fill: #4F8FEF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    padding: 2.5rem;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.3em;
+    color: white;
+    border: none;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+}
+
+.article--paysage,
+.article--style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    /* border: solid green; */
+    margin: auto;
+    width: 80vw;
+}
+
+.article--style {
+    margin-bottom: 50px;
+}
+
+.div--paysage,
+.div--style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    gap: 10px;
+    /* border: solid red; */
+}
+
+.section--svgs {
+    width: fit-content;
+    margin: auto;
+}
+
+@media screen and (max-width: 462px) {
+    .img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+
+}

@@ -1,0 +1,178 @@
+{
+    "options": [
+        {
+            "id": 1,
+            "nom": "Ville Réaliste",
+            "critères": [
+                "ville",
+                "réaliste"
+            ],
+            "imgs": [
+                "../src/images/img8.jpg",
+                "../src/images/img9.jpg",
+                "../src/images/img10.jpg",
+                "../src/images/img15.jpg",
+                "../src/images/img16.jpg",
+                "../src/images/img17.jpg",
+                "../src/images/img18.jpg",
+                "../src/images/img19.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "Ville Cartoon",
+            "critères": [
+                "ville",
+                "cartoon"
+            ],
+            "imgs": [
+                "../src/images/img1.jpg",
+                "../src/images/img2.jpg",
+                "../src/images/img3.jpg",
+                "../src/images/img4.jpg",
+                "../src/images/img14.jpg",
+                "../src/images/img21.jpg",
+                "../src/images/img22.jpg",
+                "../src/images/img23.jpg",
+                "../src/images/img24.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "nom": "Montagnes Réalistes",
+            "critères": [
+                "montagnes",
+                "réaliste"
+            ],
+            "imgs": [
+                "../src/images/img11.jpg",
+                "../src/images/img12.jpg",
+                "../src/images/img13.jpg",
+                "../src/images/img31.jpg",
+                "../src/images/img32.jpg",
+                "../src/images/img33.jpg",
+                "../src/images/img34.jpg",
+                "../src/images/img35.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "nom": "Montagnes Cartoon",
+            "critères": [
+                "montagnes",
+                "cartoon"
+            ],
+            "imgs": [
+                "../src/images/img5.jpg",
+                "../src/images/img6.jpg",
+                "../src/images/img7.jpg",
+                "../src/images/img25.jpg",
+                "../src/images/img26.jpg",
+                "../src/images/img27.jpg",
+                "../src/images/img28.jpg",
+                "../src/images/img29.jpg",
+                "../src/images/img30.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "nom": "Ville",
+            "critères": [
+                "ville"
+            ],
+            "imgs": [
+                "../src/images/img1.jpg",
+                "../src/images/img2.jpg",
+                "../src/images/img3.jpg",
+                "../src/images/img4.jpg",
+                "../src/images/img8.jpg",
+                "../src/images/img9.jpg",
+                "../src/images/img10.jpg",
+                "../src/images/img14.jpg",
+                "../src/images/img15.jpg",
+                "../src/images/img16.jpg",
+                "../src/images/img17.jpg",
+                "../src/images/img18.jpg",
+                "../src/images/img19.jpg",
+                "../src/images/img21.jpg",
+                "../src/images/img22.jpg",
+                "../src/images/img23.jpg",
+                "../src/images/img24.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "nom": "Montagnes",
+            "critères": [
+                "montagnes"
+            ],
+            "imgs": [
+                "../src/images/img5.jpg",
+                "../src/images/img6.jpg",
+                "../src/images/img7.jpg",
+                "../src/images/img11.jpg",
+                "../src/images/img12.jpg",
+                "../src/images/img13.jpg",
+                "../src/images/img25.jpg",
+                "../src/images/img26.jpg",
+                "../src/images/img27.jpg",
+                "../src/images/img28.jpg",
+                "../src/images/img29.jpg",
+                "../src/images/img30.jpg",
+                "../src/images/img31.jpg",
+                "../src/images/img32.jpg",
+                "../src/images/img33.jpg",
+                "../src/images/img34.jpg",
+                "../src/images/img35.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "nom": "Réaliste",
+            "critères": [
+                "réaliste"
+            ],
+            "imgs": [
+                "../src/images/img8.jpg",
+                "../src/images/img9.jpg",
+                "../src/images/img10.jpg",
+                "../src/images/img11.jpg",
+                "../src/images/img12.jpg",
+                "../src/images/img13.jpg",
+                "../src/images/img15.jpg",
+                "../src/images/img16.jpg",
+                "../src/images/img17.jpg",
+                "../src/images/img18.jpg",
+                "../src/images/img19.jpg",
+                "../src/images/img31.jpg",
+                "../src/images/img32.jpg",
+                "../src/images/img33.jpg",
+                "../src/images/img34.jpg",
+                "../src/images/img35.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "nom": "Cartoon",
+            "critères": [
+                "cartoon"
+            ],
+            "imgs": [
+                "../src/images/img1.jpg",
+                "../src/images/img2.jpg",
+                "../src/images/img3.jpg",
+                "../src/images/img4.jpg",
+                "../src/images/img5.jpg",
+                "../src/images/img6.jpg",
+                "../src/images/img7.jpg",
+                "../src/images/img14.jpg",
+                "../src/images/img25.jpg",
+                "../src/images/img26.jpg",
+                "../src/images/img27.jpg",
+                "../src/images/img28.jpg",
+                "../src/images/img29.jpg",
+                "../src/images/img30.jpg"
+            ]
+        }
+    ]
+}

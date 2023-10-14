@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'coffe';
+    src: url('../fonts/CoffeCake.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: solid red 1px; */
+}
+
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #c7d9fb;
+    font-family: 'Comic sans MS';
+    font-size: 1.2rem;
+    color: #333;
+    padding: 30px 0;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+h1 {
+    font-family: 'coffe';
+    font-size: 4rem;
+    color: #2e2e2e;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'coffe';
+    font-size: 3rem;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.blue {
+    color: #4F8FEF;
+}
+
+button {
+    background: url(../svg/backgroundButton.svg);
+    fill: #4F8FEF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+    padding: 2rem;
+    font-size: 1.3em;
+    color: white;
+    border: none;
+}
+
+.active {
+    background: url(../svg/backgroundButtonHover.svg);
+    fill: #4F8FEF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+    padding: 2rem;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+}
+
+/* .button--bottom,
+.button-ville {
+    padding: 0;
+    border: solid 1px #4F8FEF;
+    width: fit-content;
+    margin: auto;
+} */
+
+.svgFleche {
+    width: 1.5em;
+}
+
+.p--description {
+    color: #000;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 55%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+main>*,
+.section--svgs>* {
+    height: 100%;
+}
+
+.section--svgs {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    /* background-color: #4F8FEF; */
+}
+
+/* Style */
+
+.article--style,
+.article--paysage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+    height: 90%;
+    margin-top: -50px;
+    width: 25%;
+}
+
+.div--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* paysage */
+
+.div--paysage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* images */
+
+
+.img {
+    /* height: 100%; */
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.articleTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 40%;
+}
+
+.articleBot {
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
