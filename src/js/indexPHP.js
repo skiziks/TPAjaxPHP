@@ -41,7 +41,7 @@ function initialImages() {
     img4.attr('src', '../src/images/img' + randomIndices[3] + '.jpg');
 }
 
-
+// Fonction qui récupère les id des boutons actifs et les envoies en POST à mon fichier PHP pour qu'il puisse faire la requête SQL et me retourner les images correspondantes
 function envoieAjax() {
     let activeButtons = [];
     buttons.forEach(function (button) {
@@ -69,7 +69,6 @@ function envoieAjax() {
             img4.attr('src', '../src/images/' + images.img4 + '.jpg');
         }
     });
-
 }
 
 
@@ -82,28 +81,24 @@ $(document).ready(function () {
     buttonCartoon.click(function () {
         buttonCartoon.toggleClass('active');
         buttonRealiste.removeClass('active');
-        // updateImagesBasedOnActiveButtons();
         envoieAjax();
     });
 
     buttonRealiste.click(function () {
         buttonRealiste.toggleClass('active');
         buttonCartoon.removeClass('active');
-        // updateImagesBasedOnActiveButtons();
         envoieAjax();
     });
 
     buttonMontagne.click(function () {
         buttonMontagne.toggleClass('active');
         buttonVille.removeClass('active');
-        // updateImagesBasedOnActiveButtons();
         envoieAjax();
     });
 
     buttonVille.click(function () {
         buttonVille.toggleClass('active');
         buttonMontagne.removeClass('active');
-        // updateImagesBasedOnActiveButtons();
         envoieAjax();
     });
 });

@@ -9,6 +9,7 @@ $styleOptions = ['cartoon', 'realiste'];
 $paysageOptions = ['ville', 'montagne'];
 
 foreach ($activeButtons as $value) {
+    // Cette variable récupère l'id en enlevant les premiers caractère car la valeur retourné de base est par exemple "button--montagne", j'enlève donc "button--"
     $button = substr($value, 8);
     $style = '';
     $paysage = '';
